@@ -30,14 +30,14 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
-  - {t: '1', s: '!'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: CONTROLS}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: LEFT WIN, h: NUMBER}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', h: ICON}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: BLUETOOTH}
-  - {t: '2', s: '@'}
   NUMBER:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -192,8 +192,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   ARROWS:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -264,9 +264,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - $$mdi:apple-keyboard-control$$
+  - {type: held}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
