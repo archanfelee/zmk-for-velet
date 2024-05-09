@@ -7,7 +7,7 @@ config SHIELD_VELET_CENTRAL_DONGLE
 config SHIELD_VELET_CENTRAL_LEFT
     def_bool $(shields_list_contains,velet_central_left)
     
-config SHIELD_CYGNUS_PERIPHERAL_LEFT
+config SHIELD_VELET_PERIPHERAL_LEFT
     def_bool $(shields_list_contains,velet_peripheral_left)
 
 config SHIELD_VELET_PERIPHERAL_RIGHT
