@@ -1,0 +1,14 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_VELET_CENTRAL_DONGLE
+    def_bool $(shields_list_contains,velet_central_dongle)
+
+config SHIELD_VELET_CENTRAL_LEFT
+    def_bool $(shields_list_contains,velet_central_left)
+    
+config SHIELD_CYGNUS_PERIPHERAL_LEFT
+    def_bool $(shields_list_contains,velet_peripheral_left)
+
+config SHIELD_VELET_PERIPHERAL_RIGHT
+    def_bool $(shields_list_contains,velet_peripheral_right)

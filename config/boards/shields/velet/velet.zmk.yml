@@ -1,0 +1,13 @@
+file_format: "1"
+id: velet
+name: Velet
+type: shield
+url:
+requires:
+  - pro_micro
+exposes:
+features:
+  - keys
+siblings:
+  - velet_left
+  - velet_right
