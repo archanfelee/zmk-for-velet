@@ -180,10 +180,10 @@
 
         ARROWS {
             bindings = <
-&trans  &trans          &kp UP_ARROW    &trans           &kp TAB       &trans     &trans          &kp UP          &trans           &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans          &trans          &trans           &trans        &trans     &trans          &trans          &trans           &trans
-        &trans          &trans          &trans           &kp LEFT_ALT  &kp SPACE  &kp BSPC        &kp DELETE      &trans
+&bootloader  &trans          &kp UP_ARROW    &trans           &kp TAB       &trans     &trans          &kp UP          &trans           &bootloader
+&trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans       &trans          &trans          &trans           &trans        &trans     &trans          &trans          &trans           &trans
+             &trans          &trans          &trans           &kp LEFT_ALT  &kp SPACE  &kp BSPC        &kp DELETE      &trans
             >;
 
             label = "Arrow";
