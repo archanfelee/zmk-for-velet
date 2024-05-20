@@ -239,11 +239,11 @@ layers:
   - Ctl+ $$mdi:apple-keyboard-shift$$
   - Ctl+ Y
   - Gui+ $$mdi:keyboard-tab$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Y
+  - U
+  - I
+  - O
+  - P
   - {t: Ctl+ A, h: Alt+Ctl+ A}
   - Ctl+ S
   - Gui+ D
@@ -251,8 +251,8 @@ layers:
   - Gui+ L
   - {t: '$$mdi:transfer$$', type: trans}
   - J
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - K
+  - L
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+ Z
   - Ctl+ X
