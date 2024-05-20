@@ -192,13 +192,22 @@
 
         CONTROLS {
             bindings = <
-&kp LC(J)            &kp LC(LA(W))  &kp LC(LSHFT)    &kp LC(Y)  &kp LG(TAB)  &msc SCRL_LEFT      &msc SCRL_UP      &mmv MOVE_UP      &msc SCRL_DOWN     &msc SCRL_RIGHT
-&mt LA(LC(A)) LC(A)  &kp LC(S)      &kp LG(D)        &kp LC(F)  &kp LG(L)    &trans     &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_RIGHT     &trans
-&kp LC(Z)            &kp LC(X)      &mt LCTRL LC(C)  &kp LC(V)  &kp LC(B)    &trans     &mkp MB4   &mkp MB5   &kp LALT  &kp TAB
-                     &trans         &kp LEFT_ALT     &kp TAB    &trans       &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
+&kp LC(J)            &kp LC(LA(W))  &kp LC(LSHFT)    &kp LC(Y)  &kp LG(TAB)  &msc SCRL_LEFT  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &msc SCRL_RIGHT
+&mt LA(LC(A)) LC(A)  &kp LC(S)      &kp LG(D)        &kp LC(F)  &kp LG(L)    &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
+&kp LC(Z)            &kp LC(X)      &mt LCTRL LC(C)  &kp LC(V)  &kp LC(B)    &trans          &mkp MB4        &mkp MB5        &kp LALT         &kp TAB
+                     &trans         &kp LEFT_ALT     &kp TAB    &trans       &mkp LCLK       &mkp MCLK       &mkp RCLK       &trans
             >;
 
             label = "Ctrls";
+        };
+
+        Mouse {
+            bindings = <
+&kp Q   &kp W   &kp E   &kp R   &kp T   &trans  &trans  &trans  &trans  &trans
+&trans  &kp S   &kp D   &kp F   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp C   &kp V   &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &kp N3  &kp N1  &kp N2  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
