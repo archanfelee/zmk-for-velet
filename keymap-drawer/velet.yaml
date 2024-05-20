@@ -239,20 +239,20 @@ layers:
   - Ctl+ $$mdi:apple-keyboard-shift$$
   - Ctl+ Y
   - Gui+ $$mdi:keyboard-tab$$
-  - Y
-  - U
-  - I
-  - O
-  - P
+  - $$mdi:pan-left$$
+  - $$mdi:pan-up$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-down$$
+  - $$mdi:pan-right$$
   - {t: Ctl+ A, h: Alt+Ctl+ A}
   - Ctl+ S
   - Gui+ D
   - Ctl+ F
   - Gui+ L
   - {t: '$$mdi:transfer$$', type: trans}
-  - J
-  - K
-  - L
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+ Z
   - Ctl+ X
