@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-#include <dt-bindings/zmk/mouse.h>
+
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -191,8 +191,8 @@
 
         CONTROLS {
             bindings = <
-&kp LC(J)            &kp LC(LA(W))  &kp LC(LSHFT)    &kp LC(Y)  &kp LG(TAB)  &trans  &trans  &trans  &trans    &trans
-&mt LA(LC(A)) LC(A)  &kp LC(S)      &kp LG(D)        &kp LC(F)  &kp LG(L)    &trans  &kp J   &trans  &trans    &trans
+&kp LC(J)            &kp LC(LA(W))  &kp LC(LSHFT)    &kp LC(Y)  &kp LG(TAB)  &kp Y   &kp U   &kp I   &kp O     &kp P
+&mt LA(LC(A)) LC(A)  &kp LC(S)      &kp LG(D)        &kp LC(F)  &kp LG(L)    &trans  &kp J   &kp K   &kp L     &trans
 &kp LC(Z)            &kp LC(X)      &mt LCTRL LC(C)  &kp LC(V)  &kp LC(B)    &trans  &trans  &trans  &kp LALT  &kp TAB
                      &trans         &kp LEFT_ALT     &kp TAB    &trans       &trans  &trans  &trans  &trans
             >;
