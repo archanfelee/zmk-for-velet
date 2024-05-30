@@ -210,7 +210,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {type: held}
-  - {type: held}
+  - {type: held alternate}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -260,8 +260,8 @@ layers:
   - Ctl+ V
   - Ctl+ B
   - {t: '$$mdi:transfer$$', type: trans}
-  - C
-  - V
+  - '&mkp MB4'
+  - '&mkp MB5'
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-tab$$
   - {type: held}
@@ -295,8 +295,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - C
-  - V
+  - '&mkp MB4'
+  - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
