@@ -111,7 +111,7 @@
                 &kp UP  &kp LEFT  &kp DOWN   &kp RIGHT   &kp F4      &kp MINUS    &kp SEMI  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH
                 &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                &kp N6   &mt RCTL N7  &mt RSFT N8  &mt RALT N9  &mt RWIN N0
                 &kp EXCLAMATION  &kp QUESTION  &kp LESS_THAN   &kp GREATER_THAN   &kp GRAVE     &kp UNDERSCORE   &kp COLON  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SINGLE_QUOTE
-           &trans      &trans      &trans  &trans           &kp SPACE  &kp C_MENU      &kp DELETE  &trans
+           &trans      &trans      &trans  &kp BSPC           &kp SPACE  &kp C_MENU      &kp DELETE  &trans
             >;
 
             label = "Num";
