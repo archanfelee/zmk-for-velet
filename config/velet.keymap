@@ -114,7 +114,7 @@
            &trans      &trans      &trans  &kp BSPC           &kp SPACE  &kp C_MENU      &trans  &kp DELETE
             >;
 
-            label = "Num";
+            label = "NUM";
         };
 
         ICON {
